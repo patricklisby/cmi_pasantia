@@ -2,7 +2,7 @@
 {
 	public class Modulo
 	{
-		public int ModuloId { get; set; }
+		public int IdModulo { get; set; }
 
 		public string NombreModulo { get; set; }
 

@@ -2,7 +2,7 @@
 {
 	public class Permiso
 	{
-		public int PermisoId { get; set; }
+		public int IdPermiso { get; set; }
 
 		public string NombrePermiso { get; set; }
 

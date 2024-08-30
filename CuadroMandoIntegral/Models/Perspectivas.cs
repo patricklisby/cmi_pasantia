@@ -4,7 +4,7 @@ namespace CuadroMandoIntegral.Models
 {
 	public class Perspectivas
 	{
-		public int IdPerspectia { get; set; }
+		public int IdPerspectiva { get; set; }
 
 		public string NombrePerspectiva { get; set; }
 

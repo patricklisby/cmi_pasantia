@@ -2,7 +2,7 @@
 {
 	public class Rol
 	{
-		public int? rolId { get; set; }
+		public int? IdRol { get; set; }
 		public string? descripcion { get; set; }
 
 		public virtual ICollection<Persona> Persona { get; set; }

@@ -2,7 +2,7 @@
 {
 	public class Departamento
 	{
-		public int id { get; set; }
+		public int IdDepartamento { get; set; }
 		public string nombre { get; set; }
 	}
 }

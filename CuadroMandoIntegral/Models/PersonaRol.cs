@@ -7,12 +7,12 @@ namespace CuadroMandoIntegral.Models
 		
 		public int IdRol { get; set; }
 		
-		public int PersonaId { get; set; }
+		public int IdPersona { get; set; }
 
 		[ForeignKey("IdRol")]
 		public Rol Rol { get; set; }
 
-		[ForeignKey("PersonaId")]
+		[ForeignKey("IdPersona")]
 		public Persona Persona { get; set; }
 	}
 }

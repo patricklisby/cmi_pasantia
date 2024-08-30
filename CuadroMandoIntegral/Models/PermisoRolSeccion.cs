@@ -4,19 +4,19 @@ namespace CuadroMandoIntegral.Models
 {
 	public class PermisoRolSeccion
 	{
-		public int PermisoId { get; set; }
+		public int IdPermiso { get; set; }
 
-		[ForeignKey("PermisoId")]
+		[ForeignKey("IdPermiso")]
 		public Permiso Permiso { get; set; }
 
-		public int RolId { get; set; }
+		public int IdRol { get; set; }
 
-		[ForeignKey("RolId")]
+		[ForeignKey("IdRol")]
 		public Rol Rol { get; set; }
 
-		public int SeccionId { get; set; }
+		public int IdSeccion { get; set; }
 
-		[ForeignKey("SeccionId")]
+		[ForeignKey("IdSeccion")]
 		public SeccionSistema SeccionSistema { get; set; }
 
 	}

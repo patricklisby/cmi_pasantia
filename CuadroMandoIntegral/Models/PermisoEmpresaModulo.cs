@@ -4,19 +4,19 @@ namespace CuadroMandoIntegral.Models
 {
 	public class PermisoEmpresaModulo
 	{
-		public int PermisoId { get; set; }
+		public int IdPermiso { get; set; }
 
-		[ForeignKey("PermisoId")]
+		[ForeignKey("IdPermiso")]
 		public Permiso Permiso { get; set; }
 
-		public int EmpresaId { get; set; }
+		public int IdEmpresa { get; set; }
 
-		[ForeignKey("EmpresaId")]
+		[ForeignKey("IdEmpresa")]
 		public Empresa Empresa { get; set; }
 
-		public int ModuloId { get; set; }
+		public int IdModulo { get; set; }
 
-		[ForeignKey("ModuloId")]
+		[ForeignKey("IdModulo")]
 		public Modulo Modulo { get; set; }
 	}
 }

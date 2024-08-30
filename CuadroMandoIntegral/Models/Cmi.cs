@@ -7,7 +7,7 @@ namespace CuadroMandoIntegral.Models
 	 */
 	public class Cmi
 	{
-		public int CmiId { get; set; }
+		public int IdCmi { get; set; }
 		
 		public string CmiName { get; set; }
 		

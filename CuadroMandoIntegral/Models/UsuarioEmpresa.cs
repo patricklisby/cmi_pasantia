@@ -6,14 +6,14 @@ namespace CuadroMandoIntegral.Models
 	{
 		public int IdUsuario { get; set; }
 
-		public int PersonaID { get; set; }
+		public int IdPersona { get; set; }
 
-		[ForeignKey("PersonaID")]
+		[ForeignKey("IdPersona")]
 		public Persona Persona { get; set; }
 
-		public int EmpresaId { get; set; }
+		public int IdEmpresa { get; set; }
 
-		[ForeignKey("EmpresaId")]
+		[ForeignKey("IdEmpresa")]
 		public Empresa Empresa { get; set; }
 	}
 }

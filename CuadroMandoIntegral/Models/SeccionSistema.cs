@@ -2,7 +2,7 @@
 {
 	public class SeccionSistema
 	{
-		public int SeccionId { get; set; }
+		public int IdSeccion { get; set; }
 
 		public string NombreSeccion { get; set; }
 
