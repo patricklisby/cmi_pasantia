@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Pasantia\\cmi-ucr-2024\\CuadroMandoIntegral\\CuadroMandoIntegral.csproj": {}
+    "D:\\REPOSITORIES\\cmi_pasantia\\CuadroMandoIntegral\\CuadroMandoIntegral.csproj": {}
   },
   "projects": {
-    "C:\\Pasantia\\cmi-ucr-2024\\CuadroMandoIntegral\\CuadroMandoIntegral.csproj": {
+    "D:\\REPOSITORIES\\cmi_pasantia\\CuadroMandoIntegral\\CuadroMandoIntegral.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pasantia\\cmi-ucr-2024\\CuadroMandoIntegral\\CuadroMandoIntegral.csproj",
+        "projectUniqueName": "D:\\REPOSITORIES\\cmi_pasantia\\CuadroMandoIntegral\\CuadroMandoIntegral.csproj",
         "projectName": "CuadroMandoIntegral",
-        "projectPath": "C:\\Pasantia\\cmi-ucr-2024\\CuadroMandoIntegral\\CuadroMandoIntegral.csproj",
-        "packagesPath": "C:\\Users\\lisby\\.nuget\\packages\\",
-        "outputPath": "C:\\Pasantia\\cmi-ucr-2024\\CuadroMandoIntegral\\obj\\",
+        "projectPath": "D:\\REPOSITORIES\\cmi_pasantia\\CuadroMandoIntegral\\CuadroMandoIntegral.csproj",
+        "packagesPath": "C:\\Users\\josue\\.nuget\\packages\\",
+        "outputPath": "D:\\REPOSITORIES\\cmi_pasantia\\CuadroMandoIntegral\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lisby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\josue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,6 +72,10 @@
               "target": "Package",
               "version": "[6.0.23, )"
             },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.16, )"
@@ -96,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
